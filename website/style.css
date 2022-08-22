@@ -1,0 +1,917 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sitebody{
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.blank{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.sushi{
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    z-index: -1;
+}
+
+.sushi img{
+    width: 1000px;
+}
+
+.blackbackground{
+    position: absolute;
+    top: -30px;
+    right: 0;
+    z-index: -2;
+    border-radius: 45%;
+}
+
+.blackbackground img{
+    width: 715px;
+    border-bottom-left-radius: 90%;
+    border-top-left-radius: 90%;
+}
+.navigation{
+    width: 525px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.nav-topmenu{
+    width: 413px;
+    height: 100%;
+    list-style: none;
+    /* font-family: 'Product Sans'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.register{
+    margin-left: 30px;
+}
+
+.register p{
+    padding-top: 7px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 7px;
+    background-color: #F16214;
+    border: 1.5px solid #F16214;
+    border-radius: 120px;
+    color: white;
+}
+
+.navigation-top{
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.content1 p{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 75px;
+    line-height: 91px;
+    color: black;
+}
+
+.content1{
+    width: 488px;
+    height: fit-content;
+}
+
+.content2{
+    width: 570px;
+    height: fit-content;
+    margin-top: 15px;
+}
+
+.content2 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #888888;
+}
+
+.button1{
+    position: relative;
+    margin-top: 40px;
+}
+
+.orangebackground2{
+    width: 170px;
+    height: 50px;
+    box-sizing: border-box;
+    background: #F16214;
+    z-index: -2;
+    border-radius: 54px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.getstarted{
+    position: absolute;
+    top: 13px;
+    left: 19px;
+}
+
+.getstarted p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+}
+
+.whitebutton{
+    position: absolute;
+    top: 5px;
+    left: 125px;
+}
+
+.buttonvector{
+    position: absolute;
+    top: 17px;
+    left: 142px;
+}
+
+.maincontent{
+    margin-top: 80px;
+}
+
+.socialmedia{
+    margin-top: 124px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.socialmedia div img{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.icon1{
+    height: 40px;
+    width: 40px;
+    background-color: #F16214;
+    border-radius: 45px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 60px;
+
+}
+
+.icon1 > img{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: +1;
+}
+
+.icon2{
+    height: 40px;
+    width: 40px;
+    background-color: #F16214;
+    border-radius: 45px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.icon2 > img{
+    position: absolute;
+    top: 12px;
+    left: 13px;
+    z-index: +1;
+}
+
+.icon3{
+    height: 40px;
+    width: 40px;
+    background-color: #F16214;
+    border-radius: 45px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.icon3 > img{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: +1;
+}
+
+ .contactform{
+    margin-top: 110PX;
+    width: 1080px;
+    height: 217px;
+}
+
+.contactform{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactform > div{
+    width: 360px;
+}
+
+.textcon p{
+    font-style: bold;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.textbon p{
+    color: #888888;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.sushicubuq{
+    position: absolute;
+    left: 0;
+    top: 981px;
+}
+
+.sushicubuq img{
+    width: 800px;
+}
+
+.sushicontent{
+    width: 1080px;
+    margin-top: 125px;
+    display: flex;
+    justify-content: end;
+}
+
+.sushicontent1{
+    width: 530px;
+}
+
+.headingtop{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: bold;
+    color: #F16214;
+}
+
+.headingbold{
+    margin-top: 6px;
+    font-size: 40px;
+    font-style: bold;
+    line-height: 100%;
+    font-weight: 700;
+}
+
+.contenttext{
+    margin-top: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #888888;
+}
+
+.learnmore p{
+    padding-top: 13px;
+    padding-right: 61px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    background-color: #F16214;
+    border-radius: 54px;
+    font-style: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.learnmore{
+    margin-top: 29px;
+    width: fit-content;
+    position: relative;
+}
+
+.ellipsee img{
+    position: absolute;
+    top: 4px;
+    right: 5px;
+}
+
+.vectorr{
+    position: absolute;
+    top: 16px;
+    right: 20px;
+}
+
+.choose{
+    width: 1080px;
+    margin-top: 220px;
+}
+
+.services{
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16214;
+    font-style: bold;
+}
+
+.favo-food{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    font-style: bold;
+    margin-top: 6px;
+}
+
+.blocksection{
+    margin-top: 59px;
+    height: 395px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block1, .block2, .block3{
+    width: 330px;
+    border: 2px solid #EEEEEE;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    position: relative;
+}
+
+.imgbicaq img{
+    height: 30px;
+    margin-top: 70px;
+}
+
+.imgbicaq{
+    text-align: center;
+}
+
+.headings{
+    margin-top: 69px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31.54px;
+    font-style: Bold;
+}
+
+.headingss{
+    margin: 0 auto;
+    margin-top: 22px;
+    width: 250px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    font-style: Regular;
+    color: #888888;
+}
+
+.block1 > img{
+    width: 80px;
+    position: absolute;
+    top: 45px;
+    left: 123px;
+}
+
+.block2 > img{
+    width: 80px;
+    position: absolute;
+    top: 45px;
+    left: 126px;
+}
+
+.block3 > img{
+    width: 80px;
+    position: absolute;
+    top: 45px;
+    left: 123px;
+}
+
+/* Bura bax */
+.block2{
+    box-shadow: 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.products{
+    margin-top: 180px;
+}
+
+.menublock{
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.menublockk{
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+.menublock1, .menublock2, .menublock3{
+    width: 330px;
+    height: 419px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid black;
+}
+
+.menublock1 > img, .menublock2 > img, .menublock3 > img{
+    width: 330px;
+    border-top-left-radius: 50px;
+}
+
+.foodname{
+    margin-left: 19px;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.puanlama{
+    display: flex;
+}
+
+.puanlama img{
+    width: 14px;
+    margin-left: 275px;
+}
+
+.puanlama p{
+    font-weight: 700;
+    font-size: 11px;
+    font-style: bold;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.money{
+    display: flex;
+    margin-top: 19px;
+}
+
+.addtocard{
+    padding: 14px 19px;
+    background-color: #F16214;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 11px;
+    margin-left: 20px;
+}
+
+.price{
+    margin-left: 155px;
+    margin-top: 7px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.seemore{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 200px;
+    position: relative;
+}
+
+.seemore p{
+    padding-left: 12px;
+    padding-top: 13px;
+    padding-right: 57px;
+    padding-bottom: 13px;
+    background-color: #F16214;
+    border-radius: 54px;
+    color: white;
+    font-weight: 700;
+}
+
+.ellipse9{
+    position: absolute;
+    top: 3.3px;
+    right: 4px;
+}
+
+.ellipse9 img{
+    width: 38px;
+}
+
+.vector9{
+    position: absolute;
+    top: 13px;
+    right: 17px;
+}
+
+.playmarket{
+    width: 1080px;
+    position: relative;
+    margin-top: 300px;
+    height: 400px;
+}
+
+.background{
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.simple p{
+    padding-top: 100px;
+    padding-left: 30px;
+    width: 320px;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.tel1{
+    position: absolute;
+    top: -180px;
+    left: 450px;
+}
+
+.tel2{
+    position: absolute;
+    top: -130px;
+    left: 780px;
+}
+
+.icons{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment{
+    margin-top: 260px;
+    width: 1080px;
+    height: 600px;
+}
+
+.comments{
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+}
+
+.boycomment{
+    width: 600px;
+}
+
+.foodfood{
+    margin-right: 0px;
+}
+
+.profiledata{
+    width: fit-content;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+.boyphoto img{
+    margin-right: 15px;
+    border-radius: 90px;
+}
+
+.boyname{
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.boyjob{
+    font-size: 13px;
+    color: #888888;
+    margin-top: 3px;
+}
+
+.boycontent p{
+    color: #888888;
+    width: 500px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.leftright{
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+
+.left{
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #EEEEEE;
+    border-radius: 10px;
+    position: relative;
+}
+
+.right{
+    width: 50px;
+    height: 50px;
+    background-color: #F16214;
+    border-radius: 10px;
+    position: relative;
+}
+
+.vegetable{
+    position: absolute;
+    left: 0px;
+    top: 4400px;
+}
+
+.left img:first-child{
+    position: absolute;
+    top: 23.5px;
+    left: 13px;
+}
+
+.left img:nth-child(2){
+    position: absolute;
+    top: 19px;
+    left: 30px;
+}
+
+.right img:first-child{
+    position: absolute;
+    top: 23.5px;
+    left: 14px;
+}
+
+.right img:nth-child(2){
+    position: absolute;
+    top: 19px;
+    left: 11px;
+}
+
+.subs{
+    width: 1080px;
+    margin-top: 170px;
+    position: relative;
+    height: 210px;
+}
+
+.newsletter{
+    width: 504px;
+    margin-left: 509px;
+}
+
+.blackback{
+    width: 1080px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.hamburger{
+    position: absolute;
+    top: -100px;
+    left: 33px;
+}
+
+.subcribetext{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+}
+
+.textt{
+    width: 500px;
+    color: #888888;
+    padding-top: 15px;
+}
+
+.grey{
+    background-color: #EEEEEE;
+    height: 477px;
+    width: 100%;
+    position: absolute;
+    top: 5760px;
+    left: 0px;
+    z-index: -1;
+}
+
+.footer{
+    margin-top: 310px;
+    width: 1080px;
+    height: 477px;
+    border: 1px solid transparent;
+}
+
+.navmenu{
+    margin-top: 100px;
+    height: 240px;
+    display: flex;
+}
+
+.navline{
+    margin-top: 60px;
+    border: 1.5px solid #DDDDDD;
+}
+
+.navcopyright{
+    margin-top: 25px;
+    text-align: center;
+    color: #888888;
+    font-size: 17px;
+}
+
+.navmenu > div{
+    width: 300px;
+}
+
+.opening-restaurant{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.list2{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    color: #888888;
+    line-height: 32px;
+    padding-top: 36px;
+}
+
+.user-link{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.list3{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    color: #888888;
+    line-height: 32px;
+    padding-top: 36px;
+}
+
+.contact-us{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.list4{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    color: #888888;
+    line-height: 32px;
+    padding-top: 36px;
+}
+
+.section1 div:first-child{
+    text-align: start;
+}
+
+.list1{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    color: #888888;
+    line-height: 32px;
+    padding-top: 36px; 
+    width: 200px;
+}
+
+.social-media{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+}
+
+.facebook{
+    height: 40px;
+    width: 40px;
+    background-color: #F16214;
+    border-radius: 45px;
+    position: relative;
+}
+
+.facebook > img{
+    position: absolute;
+    top: 14px;
+    left: 17px;
+    z-index: +1;
+}
+
+.facebookk{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(241, 98, 20, 0.15);
+    border-radius: 45px;
+    position: relative;
+}
+
+.facebookk > img{
+    position: absolute;
+    top: 14px;
+    left: 17px;
+    z-index: +1;
+}
+
+
+.instagram{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(241, 98, 20, 0.15);
+    border-radius: 45px;
+    position: relative;
+}
+
+.instagram > img{
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    z-index: +1;
+}
+
+.twitter{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(241, 98, 20, 0.15);
+    border-radius: 45px;
+    position: relative;
+}
+
+.twitter > img{
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    z-index: +1;
+}
+
+.linkedin{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(241, 98, 20, 0.15);
+    border-radius: 45px;
+    position: relative;
+}
+
+.linkedin > img{
+    position: absolute;
+    top: 14px;
+    left: 13px;
+    z-index: +1;
+}
+
